@@ -4,4 +4,4 @@ The base classes for the development of all types of migration on the .NET Frame
 
 # Migrator.Mongo
 
-The implementation of MongoDB migrations using the official driver.
+The implementation of MongoDB migrations using the official C# driver 2.x.
