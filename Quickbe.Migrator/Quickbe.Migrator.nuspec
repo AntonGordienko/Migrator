@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <authors>$author$</authors>
+    <description>$description$</description>
+    <iconUrl>https://raw.githubusercontent.com/Quickbe/Migrator/master/icon-64.png</iconUrl>
+    <projectUrl>https://github.com/Quickbe/Migrator</projectUrl>
+    <licenseUrl>https://github.com/Quickbe/Migrator/blob/master/LICENSE</licenseUrl>
+  </metadata>
+</package>
