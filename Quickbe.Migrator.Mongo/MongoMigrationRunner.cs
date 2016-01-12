@@ -43,7 +43,7 @@ namespace Quickbe.Migrator.Mongo
                 throw new ArgumentException("Current version must be more target version.");
             }
 
-            IEnumerable<MongoMigration> mongoMigrations = GetMigrations(currentVersion, targetVersion)
+            IEnumerable<MongoMigration> mongoMigrations = GetMigrations(targetVersion, currentVersion)
                 .OrderByDescending(x => x.Version);
 
             foreach (MongoMigration mongoMigration in mongoMigrations)

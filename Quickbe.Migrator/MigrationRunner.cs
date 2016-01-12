@@ -68,7 +68,7 @@ namespace Quickbe.Migrator
 
             if (currentVersion != null)
             {
-                migrations = migrations.Where(x => x.Version < currentVersion);
+                migrations = migrations.Where(x => x.Version > currentVersion);
             }
 
             if (targetVersion != null)
